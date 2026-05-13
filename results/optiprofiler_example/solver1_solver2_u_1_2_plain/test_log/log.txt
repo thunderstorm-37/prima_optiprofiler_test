@@ -1,0 +1,568 @@
+
+INFO: The script or function that calls `benchmark` function is copied to
+/home/zht/github_repo/optiprofiler/matlab/examples/out/solver1_solver2_u_1_2_plain_20260510_220732/test_log
+
+INFO: Start testing with the following options
+INFO: - Solvers: solver1, solver2
+INFO: - Problem libraries: s2mpj
+INFO: - Problem types: u
+INFO: - Problem dimension range: [1, 2]
+INFO: - Feature stamp: plain
+
+INFO: Start testing problems from the problem library "s2mpj" with the "plain" feature.
+
+INFO: More information about the S2MPJ problem library can be found at
+https://github.com/GrattonToint/S2MPJ
+
+INFO: There are 42 problems from "s2mpj" to test.
+
+INFO: There is an existing parallel pool with 8 workers. We will use 8 workers by the option `n_jobs`.
+
+INFO: Loading problem   BRKMCC     from "s2mpj".
+INFO: Loading problem   BROWNBS    from "s2mpj".
+INFO: Loading problem   BEALE      from "s2mpj".
+INFO: Loading problem   CLUSTERLS  from "s2mpj".
+INFO: Loading problem   CLIFF      from "s2mpj".
+INFO: Loading problem   DANIWOODLS from "s2mpj".
+INFO: Loading problem   BOXBODLS   from "s2mpj".
+INFO: Loading problem   CUBE       from "s2mpj".
+
+INFO: Start  solving    BRKMCC     with solver1 (run  1/ 1).
+
+INFO: Start  solving    BROWNBS    with solver1 (run  1/ 1).
+
+INFO: Start  solving    CLUSTERLS  with solver1 (run  1/ 1).
+
+INFO: Start  solving    CLIFF      with solver1 (run  1/ 1).
+
+INFO: Start  solving    DANIWOODLS with solver1 (run  1/ 1).
+
+INFO: Start  solving    CUBE       with solver1 (run  1/ 1).
+
+INFO: Start  solving    BEALE      with solver1 (run  1/ 1).
+
+INFO: Start  solving    BOXBODLS   with solver1 (run  1/ 1).
+INFO: Finish solving    BRKMCC     with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for BRKMCC     with solver1 (run  1/ 1): f = 3.4777e-01.
+INFO: Best   result for BRKMCC     with solver1 (run  1/ 1): f = 3.4777e-01.
+
+INFO: Start  solving    BRKMCC     with solver2 (run  1/ 1).
+INFO: Finish solving    BROWNBS    with solver1 (run  1/ 1) in 0.26 seconds.
+INFO: Output result for BROWNBS    with solver1 (run  1/ 1): f = 9.9999e+11.
+INFO: Best   result for BROWNBS    with solver1 (run  1/ 1): f = 9.9999e+11.
+
+INFO: Start  solving    BROWNBS    with solver2 (run  1/ 1).
+INFO: Finish solving    CLUSTERLS  with solver1 (run  1/ 1) in 0.27 seconds.
+INFO: Output result for CLUSTERLS  with solver1 (run  1/ 1): f = 1.8000e-03.
+INFO: Best   result for CLUSTERLS  with solver1 (run  1/ 1): f = 1.8000e-03.
+
+INFO: Start  solving    CLUSTERLS  with solver2 (run  1/ 1).
+INFO: Finish solving    CLIFF      with solver1 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for CLIFF      with solver1 (run  1/ 1): f = 2.0276e-01.
+INFO: Best   result for CLIFF      with solver1 (run  1/ 1): f = 2.0276e-01.
+
+INFO: Start  solving    CLIFF      with solver2 (run  1/ 1).
+INFO: Finish solving    DANIWOODLS with solver1 (run  1/ 1) in 0.23 seconds.
+INFO: Output result for DANIWOODLS with solver1 (run  1/ 1): f = 3.8456e-01.
+INFO: Best   result for DANIWOODLS with solver1 (run  1/ 1): f = 3.8456e-01.
+
+INFO: Start  solving    DANIWOODLS with solver2 (run  1/ 1).
+INFO: Finish solving    CUBE       with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for CUBE       with solver1 (run  1/ 1): f = 2.8118e+00.
+INFO: Best   result for CUBE       with solver1 (run  1/ 1): f = 2.8118e+00.
+
+INFO: Start  solving    CUBE       with solver2 (run  1/ 1).
+INFO: Finish solving    BRKMCC     with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for BRKMCC     with solver2 (run  1/ 1): f = 3.0730e-01.
+INFO: Best   result for BRKMCC     with solver2 (run  1/ 1): f = 3.0730e-01.
+
+INFO: Finish solving    BROWNBS    with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for BROWNBS    with solver2 (run  1/ 1): f = 9.9999e+11.
+INFO: Best   result for BROWNBS    with solver2 (run  1/ 1): f = 9.9999e+11.
+
+INFO: Finish solving    DANIWOODLS with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for DANIWOODLS with solver2 (run  1/ 1): f = 2.2555e-01.
+INFO: Best   result for DANIWOODLS with solver2 (run  1/ 1): f = 2.2555e-01.
+
+INFO: Finish solving    BOXBODLS   with solver1 (run  1/ 1) in 0.31 seconds.
+INFO: Output result for BOXBODLS   with solver1 (run  1/ 1): f = 1.4086e+05.
+INFO: Best   result for BOXBODLS   with solver1 (run  1/ 1): f = 1.4086e+05.
+
+INFO: Start  solving    BOXBODLS   with solver2 (run  1/ 1).
+INFO: Finish solving    CUBE       with solver2 (run  1/ 1) in 0.19 seconds.
+INFO: Output result for CUBE       with solver2 (run  1/ 1): f = 1.1147e+00.
+INFO: Best   result for CUBE       with solver2 (run  1/ 1): f = 1.1147e+00.
+
+INFO: Finish solving    BEALE      with solver1 (run  1/ 1) in 0.32 seconds.
+INFO: Output result for BEALE      with solver1 (run  1/ 1): f = 1.2197e+00.
+INFO: Best   result for BEALE      with solver1 (run  1/ 1): f = 1.2197e+00.
+
+INFO: Start  solving    BEALE      with solver2 (run  1/ 1).
+INFO: Finish solving    CLUSTERLS  with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for CLUSTERLS  with solver2 (run  1/ 1): f = 5.1283e-04.
+INFO: Best   result for CLUSTERLS  with solver2 (run  1/ 1): f = 5.1283e-04.
+
+INFO: Finish solving    CLIFF      with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for CLIFF      with solver2 (run  1/ 1): f = 2.0447e-01.
+INFO: Best   result for CLIFF      with solver2 (run  1/ 1): f = 2.0447e-01.
+
+INFO: Finish solving    BEALE      with solver2 (run  1/ 1) in 0.27 seconds.
+INFO: Output result for BEALE      with solver2 (run  1/ 1): f = 1.3091e-01.
+INFO: Best   result for BEALE      with solver2 (run  1/ 1): f = 1.3091e-01.
+
+INFO: Finish solving    BOXBODLS   with solver2 (run  1/ 1) in 0.30 seconds.
+INFO: Output result for BOXBODLS   with solver2 (run  1/ 1): f = 1.5749e+05.
+INFO: Best   result for BOXBODLS   with solver2 (run  1/ 1): f = 1.5749e+05.
+
+INFO: Loading problem   EGGCRATE   from "s2mpj".
+INFO: Loading problem   HIMMELBB   from "s2mpj".
+INFO: Loading problem   HUMPS      from "s2mpj".
+INFO: Loading problem   HIMMELBG   from "s2mpj".
+INFO: Loading problem   JUDGE      from "s2mpj".
+
+INFO: Start  solving    EGGCRATE   with solver1 (run  1/ 1).
+INFO: Loading problem   EXPFIT     from "s2mpj".
+
+INFO: Start  solving    HIMMELBB   with solver1 (run  1/ 1).
+
+INFO: Start  solving    HUMPS      with solver1 (run  1/ 1).
+INFO: Finish solving    EGGCRATE   with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for EGGCRATE   with solver1 (run  1/ 1): f = 1.1618e+00.
+INFO: Best   result for EGGCRATE   with solver1 (run  1/ 1): f = 1.1618e+00.
+
+INFO: Start  solving    EGGCRATE   with solver2 (run  1/ 1).
+INFO: Loading problem   DENSCHNF   from "s2mpj".
+
+INFO: Start  solving    HIMMELBG   with solver1 (run  1/ 1).
+
+INFO: Start  solving    JUDGE      with solver1 (run  1/ 1).
+INFO: Loading problem   DENSCHNB   from "s2mpj".
+
+INFO: Start  solving    EXPFIT     with solver1 (run  1/ 1).
+INFO: Finish solving    HIMMELBB   with solver1 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for HIMMELBB   with solver1 (run  1/ 1): f = 6.5209e-05.
+INFO: Best   result for HIMMELBB   with solver1 (run  1/ 1): f = 6.5209e-05.
+
+INFO: Start  solving    HIMMELBB   with solver2 (run  1/ 1).
+INFO: Finish solving    HUMPS      with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for HUMPS      with solver1 (run  1/ 1): f = 2.5434e+04.
+INFO: Best   result for HUMPS      with solver1 (run  1/ 1): f = 2.5434e+04.
+
+INFO: Start  solving    HUMPS      with solver2 (run  1/ 1).
+INFO: Finish solving    EGGCRATE   with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for EGGCRATE   with solver2 (run  1/ 1): f = 2.4373e+00.
+INFO: Best   result for EGGCRATE   with solver2 (run  1/ 1): f = 2.4373e+00.
+
+INFO: Finish solving    HIMMELBG   with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for HIMMELBG   with solver1 (run  1/ 1): f = 7.1948e-02.
+INFO: Best   result for HIMMELBG   with solver1 (run  1/ 1): f = 7.1948e-02.
+
+INFO: Start  solving    HIMMELBG   with solver2 (run  1/ 1).
+INFO: Finish solving    HIMMELBB   with solver2 (run  1/ 1) in 0.19 seconds.
+INFO: Output result for HIMMELBB   with solver2 (run  1/ 1): f = 6.0126e-09.
+INFO: Best   result for HIMMELBB   with solver2 (run  1/ 1): f = 6.0126e-09.
+
+
+INFO: Start  solving    DENSCHNB   with solver1 (run  1/ 1).
+INFO: Finish solving    HUMPS      with solver2 (run  1/ 1) in 0.19 seconds.
+INFO: Output result for HUMPS      with solver2 (run  1/ 1): f = 2.5404e+04.
+INFO: Best   result for HUMPS      with solver2 (run  1/ 1): f = 2.5404e+04.
+
+
+INFO: Start  solving    DENSCHNF   with solver1 (run  1/ 1).
+INFO: Finish solving    HIMMELBG   with solver2 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for HIMMELBG   with solver2 (run  1/ 1): f = 4.9663e-02.
+INFO: Best   result for HIMMELBG   with solver2 (run  1/ 1): f = 4.9663e-02.
+
+INFO: Finish solving    JUDGE      with solver1 (run  1/ 1) in 0.31 seconds.
+INFO: Output result for JUDGE      with solver1 (run  1/ 1): f = 2.5313e+02.
+INFO: Best   result for JUDGE      with solver1 (run  1/ 1): f = 2.5313e+02.
+
+INFO: Start  solving    JUDGE      with solver2 (run  1/ 1).
+INFO: Finish solving    EXPFIT     with solver1 (run  1/ 1) in 0.33 seconds.
+INFO: Output result for EXPFIT     with solver1 (run  1/ 1): f = 7.3018e-01.
+INFO: Best   result for EXPFIT     with solver1 (run  1/ 1): f = 7.3018e-01.
+
+INFO: Start  solving    EXPFIT     with solver2 (run  1/ 1).
+INFO: Finish solving    DENSCHNF   with solver1 (run  1/ 1) in 0.28 seconds.
+INFO: Output result for DENSCHNF   with solver1 (run  1/ 1): f = 3.6926e+00.
+INFO: Best   result for DENSCHNF   with solver1 (run  1/ 1): f = 3.6926e+00.
+
+INFO: Start  solving    DENSCHNF   with solver2 (run  1/ 1).
+INFO: Finish solving    JUDGE      with solver2 (run  1/ 1) in 0.35 seconds.
+INFO: Output result for JUDGE      with solver2 (run  1/ 1): f = 1.3441e+02.
+INFO: Best   result for JUDGE      with solver2 (run  1/ 1): f = 1.3441e+02.
+
+INFO: Finish solving    DENSCHNB   with solver1 (run  1/ 1) in 0.29 seconds.
+INFO: Output result for DENSCHNB   with solver1 (run  1/ 1): f = 2.7537e-01.
+INFO: Best   result for DENSCHNB   with solver1 (run  1/ 1): f = 2.7537e-01.
+
+INFO: Start  solving    DENSCHNB   with solver2 (run  1/ 1).
+INFO: Finish solving    EXPFIT     with solver2 (run  1/ 1) in 0.28 seconds.
+INFO: Output result for EXPFIT     with solver2 (run  1/ 1): f = 2.4824e-01.
+INFO: Best   result for EXPFIT     with solver2 (run  1/ 1): f = 2.4824e-01.
+
+INFO: Finish solving    DENSCHNF   with solver2 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for DENSCHNF   with solver2 (run  1/ 1): f = 4.9755e+00.
+INFO: Best   result for DENSCHNF   with solver2 (run  1/ 1): f = 4.9755e+00.
+
+INFO: Finish solving    DENSCHNB   with solver2 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for DENSCHNB   with solver2 (run  1/ 1): f = 8.1283e-02.
+INFO: Best   result for DENSCHNB   with solver2 (run  1/ 1): f = 8.1283e-02.
+
+INFO: Loading problem   HAIRY      from "s2mpj".
+INFO: Loading problem   HIMMELBH   from "s2mpj".
+INFO: Loading problem   DJTL       from "s2mpj".
+INFO: Loading problem   HIMMELBCLS from "s2mpj".
+
+INFO: Start  solving    HAIRY      with solver1 (run  1/ 1).
+INFO: Finish solving    HAIRY      with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for HAIRY      with solver1 (run  1/ 1): f = 5.2458e+02.
+INFO: Best   result for HAIRY      with solver1 (run  1/ 1): f = 5.2458e+02.
+
+INFO: Start  solving    HAIRY      with solver2 (run  1/ 1).
+
+INFO: Start  solving    HIMMELBH   with solver1 (run  1/ 1).
+
+INFO: Start  solving    DJTL       with solver1 (run  1/ 1).
+INFO: Loading problem   ELATVIDU   from "s2mpj".
+
+INFO: Start  solving    HIMMELBCLS with solver1 (run  1/ 1).
+INFO: Loading problem   JENSMP     from "s2mpj".
+INFO: Loading problem   DENSCHNC   from "s2mpj".
+INFO: Finish solving    HIMMELBCLS with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for HIMMELBCLS with solver1 (run  1/ 1): f = 2.6873e+00.
+INFO: Best   result for HIMMELBCLS with solver1 (run  1/ 1): f = 2.6873e+00.
+
+INFO: Start  solving    HIMMELBCLS with solver2 (run  1/ 1).
+INFO: Finish solving    HAIRY      with solver2 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for HAIRY      with solver2 (run  1/ 1): f = 5.0823e+02.
+INFO: Best   result for HAIRY      with solver2 (run  1/ 1): f = 5.0823e+02.
+
+INFO: Finish solving    HIMMELBH   with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for HIMMELBH   with solver1 (run  1/ 1): f = -4.6137e+00.
+INFO: Best   result for HIMMELBH   with solver1 (run  1/ 1): f = -4.6137e+00.
+
+INFO: Start  solving    HIMMELBH   with solver2 (run  1/ 1).
+INFO: Loading problem   DENSCHNA   from "s2mpj".
+INFO: Finish solving    HIMMELBH   with solver2 (run  1/ 1) in 0.19 seconds.
+INFO: Output result for HIMMELBH   with solver2 (run  1/ 1): f = -9.7608e-01.
+INFO: Best   result for HIMMELBH   with solver2 (run  1/ 1): f = -9.7608e-01.
+
+INFO: Finish solving    DJTL       with solver1 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for DJTL       with solver1 (run  1/ 1): f = -2.4744e+03.
+INFO: Best   result for DJTL       with solver1 (run  1/ 1): f = -2.4744e+03.
+
+INFO: Start  solving    DJTL       with solver2 (run  1/ 1).
+
+INFO: Start  solving    JENSMP     with solver1 (run  1/ 1).
+INFO: Finish solving    DJTL       with solver2 (run  1/ 1) in 0.23 seconds.
+INFO: Output result for DJTL       with solver2 (run  1/ 1): f = -4.4317e+03.
+INFO: Best   result for DJTL       with solver2 (run  1/ 1): f = -4.4317e+03.
+
+
+INFO: Start  solving    ELATVIDU   with solver1 (run  1/ 1).
+
+INFO: Start  solving    DENSCHNC   with solver1 (run  1/ 1).
+INFO: Finish solving    HIMMELBCLS with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for HIMMELBCLS with solver2 (run  1/ 1): f = 7.7837e+00.
+INFO: Best   result for HIMMELBCLS with solver2 (run  1/ 1): f = 7.7837e+00.
+
+
+INFO: Start  solving    DENSCHNA   with solver1 (run  1/ 1).
+INFO: Finish solving    ELATVIDU   with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for ELATVIDU   with solver1 (run  1/ 1): f = 6.2888e+02.
+INFO: Best   result for ELATVIDU   with solver1 (run  1/ 1): f = 6.2888e+02.
+
+INFO: Start  solving    ELATVIDU   with solver2 (run  1/ 1).
+INFO: Finish solving    JENSMP     with solver1 (run  1/ 1) in 0.26 seconds.
+INFO: Output result for JENSMP     with solver1 (run  1/ 1): f = 2.3857e+02.
+INFO: Best   result for JENSMP     with solver1 (run  1/ 1): f = 2.3857e+02.
+
+INFO: Start  solving    JENSMP     with solver2 (run  1/ 1).
+INFO: Finish solving    DENSCHNC   with solver1 (run  1/ 1) in 0.23 seconds.
+INFO: Output result for DENSCHNC   with solver1 (run  1/ 1): f = 1.3816e-01.
+INFO: Best   result for DENSCHNC   with solver1 (run  1/ 1): f = 1.3816e-01.
+
+INFO: Start  solving    DENSCHNC   with solver2 (run  1/ 1).
+INFO: Finish solving    DENSCHNC   with solver2 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for DENSCHNC   with solver2 (run  1/ 1): f = 1.6076e-01.
+INFO: Best   result for DENSCHNC   with solver2 (run  1/ 1): f = 1.6076e-01.
+
+INFO: Finish solving    DENSCHNA   with solver1 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for DENSCHNA   with solver1 (run  1/ 1): f = 3.1589e-02.
+INFO: Best   result for DENSCHNA   with solver1 (run  1/ 1): f = 3.1589e-02.
+
+INFO: Start  solving    DENSCHNA   with solver2 (run  1/ 1).
+INFO: Finish solving    ELATVIDU   with solver2 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for ELATVIDU   with solver2 (run  1/ 1): f = 2.5555e+02.
+INFO: Best   result for ELATVIDU   with solver2 (run  1/ 1): f = 2.5555e+02.
+
+INFO: Finish solving    JENSMP     with solver2 (run  1/ 1) in 0.34 seconds.
+INFO: Output result for JENSMP     with solver2 (run  1/ 1): f = 1.9618e+02.
+INFO: Best   result for JENSMP     with solver2 (run  1/ 1): f = 1.9618e+02.
+
+INFO: Finish solving    DENSCHNA   with solver2 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for DENSCHNA   with solver2 (run  1/ 1): f = 1.1603e-01.
+INFO: Best   result for DENSCHNA   with solver2 (run  1/ 1): f = 1.1603e-01.
+
+INFO: Loading problem   MARATOSB   from "s2mpj".
+INFO: Loading problem   MISRA1ALS  from "s2mpj".
+INFO: Loading problem   MEXHAT     from "s2mpj".
+INFO: Loading problem   LOGHAIRY   from "s2mpj".
+
+INFO: Start  solving    MARATOSB   with solver1 (run  1/ 1).
+
+INFO: Start  solving    MISRA1ALS  with solver1 (run  1/ 1).
+
+INFO: Start  solving    MEXHAT     with solver1 (run  1/ 1).
+
+INFO: Start  solving    LOGHAIRY   with solver1 (run  1/ 1).
+INFO: Finish solving    MARATOSB   with solver1 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for MARATOSB   with solver1 (run  1/ 1): f = 2.2115e+02.
+INFO: Best   result for MARATOSB   with solver1 (run  1/ 1): f = 2.2115e+02.
+
+INFO: Start  solving    MARATOSB   with solver2 (run  1/ 1).
+INFO: Loading problem   MISRA1DLS  from "s2mpj".
+INFO: Finish solving    MISRA1ALS  with solver1 (run  1/ 1) in 0.26 seconds.
+INFO: Output result for MISRA1ALS  with solver1 (run  1/ 1): f = 2.9005e+06.
+INFO: Best   result for MISRA1ALS  with solver1 (run  1/ 1): f = 2.9005e+06.
+
+INFO: Start  solving    MISRA1ALS  with solver2 (run  1/ 1).
+INFO: Finish solving    MARATOSB   with solver2 (run  1/ 1) in 0.26 seconds.
+INFO: Output result for MARATOSB   with solver2 (run  1/ 1): f = 2.2290e+03.
+INFO: Best   result for MARATOSB   with solver2 (run  1/ 1): f = 2.2290e+03.
+
+INFO: Finish solving    MEXHAT     with solver1 (run  1/ 1) in 0.24 seconds.
+INFO: Output result for MEXHAT     with solver1 (run  1/ 1): f = 3.7298e+07.
+INFO: Best   result for MEXHAT     with solver1 (run  1/ 1): f = 3.7298e+07.
+
+INFO: Start  solving    MEXHAT     with solver2 (run  1/ 1).
+INFO: Finish solving    LOGHAIRY   with solver1 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for LOGHAIRY   with solver1 (run  1/ 1): f = 6.5499e+00.
+INFO: Best   result for LOGHAIRY   with solver1 (run  1/ 1): f = 6.5499e+00.
+
+INFO: Start  solving    LOGHAIRY   with solver2 (run  1/ 1).
+INFO: Loading problem   MUONSINELS from "s2mpj".
+INFO: Loading problem   POWELLBSLS from "s2mpj".
+INFO: Finish solving    LOGHAIRY   with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for LOGHAIRY   with solver2 (run  1/ 1): f = 6.5493e+00.
+INFO: Best   result for LOGHAIRY   with solver2 (run  1/ 1): f = 6.5493e+00.
+
+INFO: Finish solving    MISRA1ALS  with solver2 (run  1/ 1) in 0.26 seconds.
+INFO: Output result for MISRA1ALS  with solver2 (run  1/ 1): f = 8.1913e+03.
+INFO: Best   result for MISRA1ALS  with solver2 (run  1/ 1): f = 8.1913e+03.
+
+INFO: Loading problem   MISRA1BLS  from "s2mpj".
+INFO: Finish solving    MEXHAT     with solver2 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for MEXHAT     with solver2 (run  1/ 1): f = 4.9453e+06.
+INFO: Best   result for MEXHAT     with solver2 (run  1/ 1): f = 4.9453e+06.
+
+
+INFO: Start  solving    MISRA1DLS  with solver1 (run  1/ 1).
+
+INFO: Start  solving    POWELLBSLS with solver1 (run  1/ 1).
+INFO: Finish solving    MISRA1DLS  with solver1 (run  1/ 1) in 0.24 seconds.
+INFO: Output result for MISRA1DLS  with solver1 (run  1/ 1): f = 2.5824e+06.
+INFO: Best   result for MISRA1DLS  with solver1 (run  1/ 1): f = 2.5824e+06.
+
+INFO: Start  solving    MISRA1DLS  with solver2 (run  1/ 1).
+
+INFO: Start  solving    MUONSINELS with solver1 (run  1/ 1).
+
+INFO: Start  solving    MISRA1BLS  with solver1 (run  1/ 1).
+INFO: Finish solving    POWELLBSLS with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for POWELLBSLS with solver1 (run  1/ 1): f = 7.3520e+03.
+INFO: Best   result for POWELLBSLS with solver1 (run  1/ 1): f = 7.3520e+03.
+
+INFO: Start  solving    POWELLBSLS with solver2 (run  1/ 1).
+INFO: Finish solving    MISRA1DLS  with solver2 (run  1/ 1) in 0.27 seconds.
+INFO: Output result for MISRA1DLS  with solver2 (run  1/ 1): f = 8.6928e+03.
+INFO: Best   result for MISRA1DLS  with solver2 (run  1/ 1): f = 8.6928e+03.
+
+INFO: Finish solving    POWELLBSLS with solver2 (run  1/ 1) in 0.24 seconds.
+INFO: Output result for POWELLBSLS with solver2 (run  1/ 1): f = 1.0188e+01.
+INFO: Best   result for POWELLBSLS with solver2 (run  1/ 1): f = 1.0188e+01.
+
+INFO: Finish solving    MISRA1BLS  with solver1 (run  1/ 1) in 0.32 seconds.
+INFO: Output result for MISRA1BLS  with solver1 (run  1/ 1): f = 2.5438e+06.
+INFO: Best   result for MISRA1BLS  with solver1 (run  1/ 1): f = 2.5438e+06.
+
+INFO: Start  solving    MISRA1BLS  with solver2 (run  1/ 1).
+INFO: Finish solving    MISRA1BLS  with solver2 (run  1/ 1) in 0.31 seconds.
+INFO: Output result for MISRA1BLS  with solver2 (run  1/ 1): f = 8.4455e+03.
+INFO: Best   result for MISRA1BLS  with solver2 (run  1/ 1): f = 8.4455e+03.
+
+INFO: Finish solving    MUONSINELS with solver1 (run  1/ 1) in 1.03 seconds.
+INFO: Output result for MUONSINELS with solver1 (run  1/ 1): f = 3.4466e-02.
+INFO: Best   result for MUONSINELS with solver1 (run  1/ 1): f = 3.4466e-02.
+
+INFO: Start  solving    MUONSINELS with solver2 (run  1/ 1).
+INFO: Finish solving    MUONSINELS with solver2 (run  1/ 1) in 0.95 seconds.
+INFO: Output result for MUONSINELS with solver2 (run  1/ 1): f = 1.2652e+02.
+INFO: Best   result for MUONSINELS with solver2 (run  1/ 1): f = 1.2652e+02.
+
+INFO: Loading problem   POWELLSQLS from "s2mpj".
+INFO: Loading problem   S308       from "s2mpj".
+INFO: Loading problem   ROSENBRTU  from "s2mpj".
+INFO: Loading problem   ROSENBR    from "s2mpj".
+
+INFO: Start  solving    POWELLSQLS with solver1 (run  1/ 1).
+
+INFO: Start  solving    S308       with solver1 (run  1/ 1).
+INFO: Finish solving    POWELLSQLS with solver1 (run  1/ 1) in 0.27 seconds.
+INFO: Output result for POWELLSQLS with solver1 (run  1/ 1): f = 8.6215e+01.
+INFO: Best   result for POWELLSQLS with solver1 (run  1/ 1): f = 8.6215e+01.
+
+INFO: Start  solving    POWELLSQLS with solver2 (run  1/ 1).
+
+INFO: Start  solving    ROSENBRTU  with solver1 (run  1/ 1).
+INFO: Loading problem   SINEVAL    from "s2mpj".
+
+INFO: Start  solving    ROSENBR    with solver1 (run  1/ 1).
+INFO: Finish solving    S308       with solver1 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for S308       with solver1 (run  1/ 1): f = 2.3981e+00.
+INFO: Best   result for S308       with solver1 (run  1/ 1): f = 2.3981e+00.
+
+INFO: Start  solving    S308       with solver2 (run  1/ 1).
+INFO: Finish solving    ROSENBRTU  with solver1 (run  1/ 1) in 0.23 seconds.
+INFO: Output result for ROSENBRTU  with solver1 (run  1/ 1): f = 1.0098e+02.
+INFO: Best   result for ROSENBRTU  with solver1 (run  1/ 1): f = 1.0098e+02.
+
+INFO: Start  solving    ROSENBRTU  with solver2 (run  1/ 1).
+
+INFO: Start  solving    SINEVAL    with solver1 (run  1/ 1).
+INFO: Finish solving    ROSENBR    with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for ROSENBR    with solver1 (run  1/ 1): f = 2.3601e+00.
+INFO: Best   result for ROSENBR    with solver1 (run  1/ 1): f = 2.3601e+00.
+
+INFO: Start  solving    ROSENBR    with solver2 (run  1/ 1).
+INFO: Finish solving    POWELLSQLS with solver2 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for POWELLSQLS with solver2 (run  1/ 1): f = 8.4587e+01.
+INFO: Best   result for POWELLSQLS with solver2 (run  1/ 1): f = 8.4587e+01.
+
+INFO: Finish solving    S308       with solver2 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for S308       with solver2 (run  1/ 1): f = 2.0077e+00.
+INFO: Best   result for S308       with solver2 (run  1/ 1): f = 2.0077e+00.
+
+INFO: Finish solving    ROSENBRTU  with solver2 (run  1/ 1) in 0.23 seconds.
+INFO: Output result for ROSENBRTU  with solver2 (run  1/ 1): f = 1.0097e+02.
+INFO: Best   result for ROSENBRTU  with solver2 (run  1/ 1): f = 1.0097e+02.
+
+INFO: Finish solving    ROSENBR    with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for ROSENBR    with solver2 (run  1/ 1): f = 1.1147e+00.
+INFO: Best   result for ROSENBR    with solver2 (run  1/ 1): f = 1.1147e+00.
+
+INFO: Loading problem   SISSER     from "s2mpj".
+INFO: Finish solving    SINEVAL    with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for SINEVAL    with solver1 (run  1/ 1): f = 5.0069e+00.
+INFO: Best   result for SINEVAL    with solver1 (run  1/ 1): f = 5.0069e+00.
+
+INFO: Start  solving    SINEVAL    with solver2 (run  1/ 1).
+INFO: Finish solving    SINEVAL    with solver2 (run  1/ 1) in 0.25 seconds.
+INFO: Output result for SINEVAL    with solver2 (run  1/ 1): f = 4.2893e+00.
+INFO: Best   result for SINEVAL    with solver2 (run  1/ 1): f = 4.2893e+00.
+
+INFO: Loading problem   SNAIL      from "s2mpj".
+
+INFO: Start  solving    SISSER     with solver1 (run  1/ 1).
+
+INFO: Start  solving    SNAIL      with solver1 (run  1/ 1).
+INFO: Finish solving    SISSER     with solver1 (run  1/ 1) in 0.30 seconds.
+INFO: Output result for SISSER     with solver1 (run  1/ 1): f = 1.1170e-02.
+INFO: Best   result for SISSER     with solver1 (run  1/ 1): f = 1.1170e-02.
+
+INFO: Start  solving    SISSER     with solver2 (run  1/ 1).
+INFO: Finish solving    SNAIL      with solver1 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for SNAIL      with solver1 (run  1/ 1): f = 1.4109e+01.
+INFO: Best   result for SNAIL      with solver1 (run  1/ 1): f = 1.4109e+01.
+
+INFO: Start  solving    SNAIL      with solver2 (run  1/ 1).
+INFO: Finish solving    SISSER     with solver2 (run  1/ 1) in 0.21 seconds.
+INFO: Output result for SISSER     with solver2 (run  1/ 1): f = 2.6671e-03.
+INFO: Best   result for SISSER     with solver2 (run  1/ 1): f = 2.6671e-03.
+
+INFO: Finish solving    SNAIL      with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for SNAIL      with solver2 (run  1/ 1): f = 1.4017e+01.
+INFO: Best   result for SNAIL      with solver2 (run  1/ 1): f = 1.4017e+01.
+
+INFO: Loading problem   SISSER2    from "s2mpj".
+
+INFO: Start  solving    SISSER2    with solver1 (run  1/ 1).
+INFO: Loading problem   ZANGWIL2   from "s2mpj".
+INFO: Finish solving    SISSER2    with solver1 (run  1/ 1) in 0.24 seconds.
+INFO: Output result for SISSER2    with solver1 (run  1/ 1): f = 8.4382e-03.
+INFO: Best   result for SISSER2    with solver1 (run  1/ 1): f = 8.4382e-03.
+
+INFO: Start  solving    SISSER2    with solver2 (run  1/ 1).
+INFO: Loading problem   WAYSEA1    from "s2mpj".
+INFO: Finish solving    SISSER2    with solver2 (run  1/ 1) in 0.36 seconds.
+INFO: Output result for SISSER2    with solver2 (run  1/ 1): f = 1.3954e-03.
+INFO: Best   result for SISSER2    with solver2 (run  1/ 1): f = 1.3954e-03.
+
+
+INFO: Start  solving    ZANGWIL2   with solver1 (run  1/ 1).
+
+INFO: Start  solving    WAYSEA1    with solver1 (run  1/ 1).
+INFO: Finish solving    ZANGWIL2   with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for ZANGWIL2   with solver1 (run  1/ 1): f = -1.8155e+01.
+INFO: Best   result for ZANGWIL2   with solver1 (run  1/ 1): f = -1.8155e+01.
+
+INFO: Start  solving    ZANGWIL2   with solver2 (run  1/ 1).
+INFO: Finish solving    WAYSEA1    with solver1 (run  1/ 1) in 0.22 seconds.
+INFO: Output result for WAYSEA1    with solver1 (run  1/ 1): f = 2.9621e+03.
+INFO: Best   result for WAYSEA1    with solver1 (run  1/ 1): f = 2.9621e+03.
+
+INFO: Start  solving    WAYSEA1    with solver2 (run  1/ 1).
+INFO: Finish solving    ZANGWIL2   with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for ZANGWIL2   with solver2 (run  1/ 1): f = -1.8174e+01.
+INFO: Best   result for ZANGWIL2   with solver2 (run  1/ 1): f = -1.8174e+01.
+
+INFO: Finish solving    WAYSEA1    with solver2 (run  1/ 1) in 0.20 seconds.
+INFO: Output result for WAYSEA1    with solver2 (run  1/ 1): f = 3.8750e+02.
+INFO: Best   result for WAYSEA1    with solver2 (run  1/ 1): f = 3.8750e+02.
+
+INFO: Merging all the history plots of problems from the "s2mpj" library to a single PDF file.
+
+INFO: Start creating profiles.
+
+INFO: Creating profiles for tolerance 0.1.
+INFO: Creating profiles for tolerance 0.01.
+INFO: Creating profiles for tolerance 0.001.
+INFO: Creating profiles for tolerance 0.0001.
+INFO: Creating profiles for tolerance 1e-05.
+INFO: Creating profiles for tolerance 1e-06.
+INFO: Creating profiles for tolerance 1e-07.
+INFO: Creating profiles for tolerance 1e-08.
+INFO: Creating profiles for tolerance 1e-09.
+INFO: Creating profiles for tolerance 1e-10.
+
+INFO: All single profiles are created.
+
+INFO: Scores of the solvers
+INFO: solver1:    0.3986
+INFO: solver2:    1.0000
+
+INFO: Start creating the summary PDF of all the profiles.
+INFO: The summary PDF of all the profiles is created.
+
+INFO: Finished creating profiles with the "plain" feature.
+
+**********************************************************************
+
+Summary PDF of the profiles is saved as
+/home/zht/github_repo/optiprofiler/matlab/examples/out/solver1_solver2_u_1_2_plain_20260510_220732/summary_solver1_solver2_u_1_2_plain_20260510_220732.pdf
+
+
+Single profiles are stored in
+/home/zht/github_repo/optiprofiler/matlab/examples/out/solver1_solver2_u_1_2_plain_20260510_220732/detailed_profiles
+
+
+Report of the experiment is saved as
+/home/zht/github_repo/optiprofiler/matlab/examples/out/solver1_solver2_u_1_2_plain_20260510_220732/test_log/report.txt
+
+
+Check the README file for more information about the experiment and the results
+/home/zht/github_repo/optiprofiler/matlab/examples/out/solver1_solver2_u_1_2_plain_20260510_220732/README.txt
+
+***********************************************************************

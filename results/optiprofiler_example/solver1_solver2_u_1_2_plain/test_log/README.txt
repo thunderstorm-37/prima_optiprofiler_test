@@ -1,0 +1,17 @@
+# Content of this folder
+
+File/Folder Name                   Type      Description
+----------------------------------------------------------------------------------------------------
+time_stamp_20260510_220732.txt     File      Recording the time stamp of the current experiment.
+profile_figs                       Folder    Containing all the FIG files of the profiles.
+log.txt                            File      The log file of the current experiment, recording 
+                                             printed information from MATLAB command window.
+example1.m                         File      The script or function that calls `benchmark` 
+                                             function.
+data_for_loading.mat               File      Storing the data of the current experiment for future 
+                                             loading.
+report.txt                         File      The report file of the current experiment, recording 
+                                             information like problem names and time spent on 
+                                             solving each problem for all the problem libraries.
+curves.mat                         File      Storing the curves of the profiles.
+profile_scores.mat                 File      Storing the scores of solvers on each profile.
