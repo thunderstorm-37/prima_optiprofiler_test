@@ -9,7 +9,6 @@ prima_optiprofiler_test/
 ├── .gitignore
 ├── README.md
 ├── ZhuHuatao.tex
-├── ZhuHuatao.bbl
 ├── ZhuHuatao.pdf
 ├── ZhuHuatao.synctex.gz
 ├── reference.bib
