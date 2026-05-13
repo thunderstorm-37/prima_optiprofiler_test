@@ -58,7 +58,7 @@ Change the directory to `path/to/prima_optiprofiler_test/codes/prima_rosenbrock/
 ```matlab
 prima_rosenbrock(n)
 ```
-in MATLAB command window, where $n$ is the dimension of the problem that you want to test. The results will be saved in `prima_rosenbrock_results.mat`.
+in MATLAB command window, where $n$ is the dimension of the problem that you want to test. The results will be saved in `./prima_rosenbrock_results.mat`.
 
 ### OptiProfiler Example Test
 
@@ -66,7 +66,7 @@ Change the directory to `path/to/prima_optiprofiler_test/codes/optiprofiler_prim
 ```matlab
 example1; example2; example3; example4;
 ```
-in MATLAB command window. The generated profiles, summaries and logs will be saved in `./out`.
+in MATLAB command window. The generated profiles, summaries and logs will be saved in `./out/`.
 
 ### OptiProfiler PRIMA Test
 
@@ -78,4 +78,4 @@ to compare the performance of PRIMA with double precision and PRIMA with single 
 ```matlab
 test2;
 ``` 
-to compare the performance of PRIMA with double precision and PRIMA with quadruple precision. The generated profiles, summaries and logs will be saved in `./out`.
+to compare the performance of PRIMA with double precision and PRIMA with quadruple precision. The generated profiles, summaries and logs will be saved in `./out/`.
