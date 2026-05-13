@@ -18,8 +18,8 @@ prima_optiprofiler_test/
 │   │   ├── test1.m
 │   │   └── test2.m
 │   └── prima_rosenbrock/
-│       ├── prima_rosenbrock.m
-│       └── prima_rosenbrock_results.mat
+│       └── prima_rosenbrock.m
+│       
 └── results/
     ├── optiprofiler_example/
     │   ├── solver1_solver2_fminsearch_u_2_5_noisy_0.001_mixed_gaussian/
