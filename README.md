@@ -10,7 +10,6 @@ prima_optiprofiler_test/
 ├── README.md
 ├── ZhuHuatao.tex
 ├── ZhuHuatao.pdf
-├── ZhuHuatao.synctex.gz
 ├── reference.bib
 ├── codes/
 │   ├── optiprofiler_prima/
