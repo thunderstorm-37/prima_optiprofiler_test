@@ -7,6 +7,7 @@ This directory contains the report, codes and results of tests of PRIMA and Opti
 ```text
 prima_optiprofiler_test/
 ├── .gitignore
+├── .latexmkrc
 ├── README.md
 ├── ZhuHuatao.tex
 ├── ZhuHuatao.pdf
@@ -39,13 +40,14 @@ prima_optiprofiler_test/
 
 - `ZhuHuatao.pdf`: The report of the tests.
 - `ZhuHuatao.tex`: The LaTeX source of the report.
+- `.latexmkrc`: Latexmk configuration for XeLaTeX compilation and cleanup.
 - `reference.bib`: BibTeX reference file.
 - `codes/`: MATLAB scripts used to run experiments.
 - `results/`: Generated OptiProfiler profiles, summaries, logs, and saved MATLAB data.
 
 To compile the report, you can run the following command in the terminal:
 ```bash
-latexmk -xelatex ZhuHuatao.tex
+latexmk
 ```
 
 ## Experimental Procedure
